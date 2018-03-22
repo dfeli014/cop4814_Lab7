@@ -27,6 +27,7 @@ namespace Games
 
         public override string ToString()
         {
+            string test2;
             return Team1 + "  (" + Team1Score + ")  ------ " + Team2 + "  (" + Team2Score +
                 ") ";
         }
