@@ -14,7 +14,8 @@ namespace Games
         public string Team1 { get; set; }
         public string Team2 { get; set; }
         public string Team1Score { get; set; }
-
+        public string Team2Score { get; set; }
+        public string test;
         public Game() { }
 
         public Game (string team1, string team2, string team1score, string team2score)
