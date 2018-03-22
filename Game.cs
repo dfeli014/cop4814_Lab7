@@ -14,7 +14,7 @@ namespace Games
         public string Team2 { get; set; }
         public string Team1Score { get; set; }
         public string Team2Score { get; set; }
-
+        public string test;
         public Game() { }
 
         public Game (string team1, string team2, string team1score, string team2score)
@@ -27,7 +27,9 @@ namespace Games
 
         public override string ToString()
         {
-            string test2;
+           
+            //Adding comments for Step 11
+
             return Team1 + "  (" + Team1Score + ")  ------ " + Team2 + "  (" + Team2Score +
                 ") ";
         }
