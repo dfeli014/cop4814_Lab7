@@ -10,6 +10,7 @@ namespace Games
 {
     public class Game
     {
+        //Adding comments for Step 11
         public string Team1 { get; set; }
         public string Team2 { get; set; }
         public string Team1Score { get; set; }
